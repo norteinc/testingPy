@@ -1,0 +1,24 @@
+application = ['1.exe']
+encoding = "866"
+
+[[testSuite]]
+    number = 1
+    name = 'Проверка на целые числа'
+    input = "0 3.6"
+    output = '4'
+    timeout = 0.5
+
+[[testSuite]]
+    number = 2
+    name = 'Тест числа'
+    input = "1 3"
+    output = '4'
+    timeout = 0.5
+
+[[testSuite]]
+    number = 3
+    name = 'Тест числа'
+    input = "-1 3"
+    output = '2'
+    timeout = 0.5
+
